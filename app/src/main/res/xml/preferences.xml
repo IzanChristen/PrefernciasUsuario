@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:key="nom_cognoms"
+        app:title="Nom i Cognoms"
+        app:dialogTitle="Introdueix el teu nom i cognoms"
+        app:useSimpleSummaryProvider="true"
+        />
+
+    <MultiSelectListPreference
+        app:key="races_preferides"
+        app:title="Races preferides Star Wars"
+        app:entries="@array/races_starwars"
+        app:entryValues="@array/races_starwars"
+        app:summary="Selecciona les teves races preferides" />
+
+    <SwitchPreferenceCompat
+        app:key="notificacions"
+        app:title="Notificació de notícies d'Star Wars"
+        app:summary="Activa o desactiva notificacions" />
+
+    <ListPreference
+        app:key="pelicula_preferida"
+        app:title="Pel·lícula d'Star Wars preferida"
+        app:entries="@array/pellicules_starwars"
+        app:entryValues="@array/pellicules_starwars"
+        app:useSimpleSummaryProvider="true" />
+
+    <SwitchPreferenceCompat
+        app:key="mode_fosc"
+        app:title="Mode Fosc"
+        app:summary="Activa o desactiva el mode fosc de l'aplicació" />
+
+</PreferenceScreen>

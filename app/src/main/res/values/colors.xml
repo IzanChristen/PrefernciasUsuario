@@ -1,0 +1,9 @@
+<resources>
+    <color name="colorPrimary">#8BC34A</color>       <!-- Verd Jedi -->
+    <color name="colorPrimaryDark">#0D1B2A</color>   <!-- Blau-negre -->
+    <color name="colorAccent">#4CAF50</color>        <!-- Verd intens -->
+
+    <color name="colorBackground">#E0E1DD</color>    <!-- Gris clar -->
+    <color name="colorTextPrimary">#000000</color>   <!-- Negre -->
+    <color name="colorTextSecondary">#FFFFFF</color> <!-- Blanc -->
+</resources>

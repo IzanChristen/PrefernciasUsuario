@@ -1,0 +1,43 @@
+<resources>
+    <string-array name="races_starwars">
+        <item>Ewok</item>
+        <item>GenDai</item>
+        <item>Genosià</item>
+        <item>Gorax</item>
+        <item>Gungan</item>
+        <item>Hutt</item>
+        <item>Jawa</item>
+        <item>Kel tor</item>
+        <item>Mandalorians</item>
+        <item>Massiff</item>
+        <item>Mon Calamari</item>
+        <item>Moradors de les sorres</item>
+        <item>Neimoidians</item>
+        <item>Porg</item>
+        <item>Quarren</item>
+        <item>Rakatan</item>
+        <item>Rancor</item>
+        <item>Teek</item>
+        <item>Sarlacc</item>
+        <item>Tauntaun</item>
+        <item>Ugnaught</item>
+        <item>Wampa</item>
+        <item>Weequay</item>
+        <item>Wookiee</item>
+        <item>Yuuzhan vong</item>
+        <item>Yuzzum</item>
+        <item>Zabrak</item>
+    </string-array>
+
+    <string-array name="pellicules_starwars">
+        <item>Episodi I - La amenaça fantasma</item>
+        <item>Episodi II - L’atac dels clons</item>
+        <item>Episodi III - La venjança dels Sith</item>
+        <item>Episodi IV - Una nova esperança</item>
+        <item>Episodi V - L’imperi contraataca</item>
+        <item>Episodi VI - El retorn del Jedi</item>
+        <item>Episodi VII - El despertar de la força</item>
+        <item>Episodi VIII - Els últims Jedi</item>
+        <item>Episodi IX - L’ascens de Skywalker</item>
+    </string-array>
+</resources>
