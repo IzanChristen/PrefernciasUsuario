@@ -44,17 +44,17 @@ public class MainActivity extends AppCompatActivity {
         btnShowConfig.setOnClickListener(v -> {
             try {
                 SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-                String nom = prefs.getString("nom_cognoms", "Sense nom");
+                String nom = prefs.getString("nom_cognoms", "Sin nombre");
                 Set<String> races = prefs.getStringSet("races_preferides", null);
                 boolean notif = prefs.getBoolean("notificacions", false);
                 String peli = prefs.getString("pelicula_preferida", "Ninguna seleccionada");
                 boolean modeFosc = prefs.getBoolean("mode_fosc", false);
 
                 String dades = "Nombre:\t " + nom +
-                        "\nRazas:\t " + (races != null ? races.toString() : "Ninguna") +
-                        "\nNotificacions:\t " + (notif ? "On" : "Off") +
-                        "\nPelicula:\t " + peli +
-                        "\nModo Oscuro:\t " + (modeFosc ? "On" : "Off");
+                        "\n\nRazas:\t\t " + (races != null ? races.toString() : "Ninguna") +
+                        "\n\nNotificacions:\t\t " + (notif ? "On" : "Off") +
+                        "\n\nPelicula:\t\t " + peli +
+                        "\n\nModo Oscuro:\t\t " + (modeFosc ? "On" : "Off");
 
                 tvConfigData.setText(dades);
             } catch (Exception e) {

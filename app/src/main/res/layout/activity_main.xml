@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_marginTop="60dp"
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,16 +34,20 @@
         android:padding="12dp" />
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="24dp">
+        android:layout_width="329dp"
+        android:layout_height="420dp"
+        android:layout_marginTop="24dp"
+        android:textAlignment="center">
 
         <TextView
             android:id="@+id/tvConfigData"
-            android:layout_width="match_parent"
+            android:layout_width="275dp"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="@color/colorTextPrimary" />
+            android:layout_marginLeft="30dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
     </ScrollView>
 
 </LinearLayout>
